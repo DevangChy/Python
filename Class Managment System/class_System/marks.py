@@ -5,7 +5,7 @@
 import mysql.connector as mydb
 
 # connection to the database
-conn = mydb.connect(host="localhost", user="root", password="Devang@2004", database="class")
+conn = mydb.connect(host="localhost", user="root", password="Pass", database="class")
 cur = conn.cursor()
 
 # Function to get Student Roll No
